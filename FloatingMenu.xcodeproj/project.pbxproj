@@ -13,6 +13,10 @@
 		5055F1321B727CC300C04520 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5055F1311B727CC300C04520 /* Images.xcassets */; };
 		5055F1351B727CC300C04520 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5055F1331B727CC300C04520 /* LaunchScreen.xib */; };
 		5055F1411B727CC300C04520 /* FloatingMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5055F1401B727CC300C04520 /* FloatingMenuTests.swift */; };
+		5055F14B1B727E0900C04520 /* FloatingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5055F14A1B727E0900C04520 /* FloatingButton.swift */; };
+		5055F14D1B727FBD00C04520 /* UIColor+Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5055F14C1B727FBD00C04520 /* UIColor+Colors.swift */; };
+		5055F14F1B728E0D00C04520 /* FloatingMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5055F14E1B728E0D00C04520 /* FloatingMenuController.swift */; };
+		505F49731B74514B00FA113B /* ButtonPress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505F49721B74514B00FA113B /* ButtonPress.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		5055F13A1B727CC300C04520 /* FloatingMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FloatingMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5055F13F1B727CC300C04520 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5055F1401B727CC300C04520 /* FloatingMenuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingMenuTests.swift; sourceTree = "<group>"; };
+		5055F14A1B727E0900C04520 /* FloatingButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatingButton.swift; sourceTree = "<group>"; };
+		5055F14C1B727FBD00C04520 /* UIColor+Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Colors.swift"; sourceTree = "<group>"; };
+		5055F14E1B728E0D00C04520 /* FloatingMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatingMenuController.swift; sourceTree = "<group>"; };
+		505F49721B74514B00FA113B /* ButtonPress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonPress.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +91,10 @@
 				5055F1311B727CC300C04520 /* Images.xcassets */,
 				5055F1331B727CC300C04520 /* LaunchScreen.xib */,
 				5055F1281B727CC300C04520 /* Supporting Files */,
+				5055F14A1B727E0900C04520 /* FloatingButton.swift */,
+				5055F14C1B727FBD00C04520 /* UIColor+Colors.swift */,
+				5055F14E1B728E0D00C04520 /* FloatingMenuController.swift */,
+				505F49721B74514B00FA113B /* ButtonPress.swift */,
 			);
 			path = FloatingMenu;
 			sourceTree = "<group>";
@@ -213,7 +225,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5055F12D1B727CC300C04520 /* ViewController.swift in Sources */,
+				5055F14D1B727FBD00C04520 /* UIColor+Colors.swift in Sources */,
 				5055F12B1B727CC300C04520 /* AppDelegate.swift in Sources */,
+				505F49731B74514B00FA113B /* ButtonPress.swift in Sources */,
+				5055F14F1B728E0D00C04520 /* FloatingMenuController.swift in Sources */,
+				5055F14B1B727E0900C04520 /* FloatingButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +425,7 @@
 				5055F1461B727CC300C04520 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5055F1471B727CC300C04520 /* Build configuration list for PBXNativeTarget "FloatingMenuTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +434,7 @@
 				5055F1491B727CC300C04520 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

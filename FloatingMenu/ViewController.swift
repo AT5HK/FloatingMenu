@@ -8,18 +8,32 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, press {
 
+    @IBOutlet weak var floatingButton: FloatingButton!
+    @IBOutlet weak var imageView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func presentModal(sender: UIButton) {
+        presentViewController(FloatingMenuController(fromView:floatingButton), animated: true) { () -> Void in
+            //
+        }
     }
-
+    
+    //MARK - Protocol methods
+    
+    func headPress() {
+        println("head was pressed")
+    }
+    
+    func cancelPress() {
+        println("Cancel was pressed")
+    }
 
 }
 
